@@ -5,7 +5,7 @@ on:
     branches:
       - main
       - "feature/*" # matches feature/featA, feature/featB
-      - "feature/**" # matches feature/featA/featAa
+      - "feature/**" # matches feature/featA/a
       - "!feature/featC"
     tags:
       - v1.*
